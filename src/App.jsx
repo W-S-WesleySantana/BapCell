@@ -7,7 +7,7 @@ import { Products } from './components/Products';
 import { Gallery } from './components/Gallery';
 import { AdminModal } from './components/AdminModal';
 
-// Ícone SVG nativo do Instagram (Mesmo estilo visual e peso do Lucide)
+// Ícone SVG nativo do Instagram 
 const InstagramIcon = ({ size = 24, ...props }) => (
   <svg
     xmlns="http://w3.org"
@@ -110,12 +110,12 @@ export default function App() {
       }}>
         <p style={{ color: currentTheme.subText }}>© BapCell - Assistência Técnica Especializada</p>
         <a 
-          href="https://instagram.com" 
+          href="https://www.instagram.com/bap.cell/" 
           target="_blank" 
           rel="noopener noreferrer" 
           style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', color: currentTheme.accent, marginTop: '0.5rem', fontWeight: 600 }}
         >
-          {/* Usando o componente SVG atualizado */}
+         
           <InstagramIcon size={18} /> Siga nosso Instagram
         </a>
       </footer>

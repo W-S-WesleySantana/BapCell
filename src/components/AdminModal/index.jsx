@@ -44,7 +44,7 @@ export function AdminModal({
     setProdPrice(formatCurrency(e.target.value));
   };
 
-  // Leitor de arquivo local (Upload em Base64)
+  // Leitor de arquivo local 
   const handleFileUpload = (file, callback) => {
     if (!file) return;
     const reader = new FileReader();
