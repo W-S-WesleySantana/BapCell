@@ -2,7 +2,7 @@
 import { Section, Grid, Card } from './styles';
 
 export function Products({ items }) {
-  const phoneNumber = "5511999999999";
+  const phoneNumber = "11957199844";
 
   return (
     <Section id="produtos">
