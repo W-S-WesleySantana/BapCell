@@ -7,7 +7,7 @@ export function Budget() {
   const [issue, setIssue] = useState('');
   const [details, setDetails] = useState('');
 
-  const phoneNumber = "5511957199844"; 
+  const phoneNumber = "5511951199844"; 
 
   const handleSend = () => {
     const text = `Olá BapCell! Gostaria de pedir um orçamento.%0A%0A📱 *Modelo:* ${model || 'Não informado'}%0A🛠️ *Defeito:* ${issue || 'Não informado'}%0A📝 *Detalhes:* ${details || 'Nenhum detalhe adicional'}`;
