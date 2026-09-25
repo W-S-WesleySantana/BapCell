@@ -106,7 +106,7 @@ export default function App() {
       }}>
         <p style={{ color: currentTheme.subText }}>© BapCell - Assistência Técnica Especializada</p>
         <a 
-          href="https://instagram.com" 
+          href="https://www.instagram.com/bap.cell/" 
           target="_blank" 
           rel="noopener noreferrer" 
           style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', color: currentTheme.accent, marginTop: '0.5rem', fontWeight: 600 }}
