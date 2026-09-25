@@ -13,11 +13,11 @@ export function Gallery({ works }) {
             <div className="images">
               <div>
                 <span>Antes</span>
-                <img src={work.beforeImg || "https://via.placeholder.com/150?text=Antes"} alt="Antes" />
+                <img src={work.before_img || work.beforeImg || "https://via.placeholder.com/150?text=Antes"} alt="Antes" />
               </div>
               <div>
                 <span>Depois</span>
-                <img src={work.afterImg || "https://via.placeholder.com/150?text=Depois"} alt="Depois" />
+                <img src={work.after_img || work.afterImg || "https://via.placeholder.com/150?text=Depois"} alt="Depois" />
               </div>
             </div>
           </WorkCard>
